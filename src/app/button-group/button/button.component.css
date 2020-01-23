@@ -1,0 +1,39 @@
+button {
+  padding: 1rem;
+  min-width: 60px;
+  width: 100%;
+  display: block;
+  background: none;
+	color: inherit;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  border: 0.5px rgba(0, 0, 0, 0.25) solid;
+}
+
+button:hover{
+  background-color: #f4f4f4;
+}
+
+.operator {
+  background-color: #128AE0;
+  color: white;
+}
+
+.operator:hover {
+  background-color: #057CD0;
+}
+
+.digit {
+  background-color: white;
+  color: black;
+}
+
+.utility {
+  background-color: #FF9E45;
+  color: white
+}
+
+.utility:hover {
+  background-color: #FC8415;
+}

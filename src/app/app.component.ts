@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { standardButtons } from './button-values';
+import { scientificButtons } from './button-values';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular-Calculator';
+  standard = standardButtons;
+  scientific = scientificButtons;
 }

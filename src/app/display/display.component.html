@@ -1,0 +1,15 @@
+<div class="container">
+  <textarea name="" id="" class="secondaryDisplay" cols="30" rows="10" #secondaryDisplay disabled></textarea>
+  <textarea name="" id="" class="primaryDisplay"cols="30" rows="10" #primaryDisplay disabled></textarea>
+  <div class="icons">
+    <div class="toggle">
+      <p>Rad</p>
+      <label class="switch">
+        <input type="checkbox" #angleToggle>
+        <span class="slider round"></span>
+      </label>
+      <p>Deg</p>
+    </div>
+    <img src="/assets/back.png" alt="" (click)="updateActiveDisplay('Backspace')">
+  </div>
+</div>
