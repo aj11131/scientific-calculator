@@ -1,3 +1,11 @@
+USAGE: Calculator with standard and scientific interface.
+
+CALCULATIONS: To calculate input, string that appears in the calculator display is passed to a formatting function that uses regular expressions to replace functions such as sin() with Math.sin(). This formatting function also handles different muliplication scenarios such as multplication using parenthesis and multiplication of a numbers situated by a letter/symbol ie. (2)(3) and 2π. The formatted string is then evaluated. If there are nested calculator functions such as sin(cos()), the formatting function is called recursively and the inner function is evaluated and then the outer function.
+
+BUTTONS: The calculator buttons are displayed using a reusable button component and NgFor. The button objects are initialized using an array of values that hold the button data.
+
+DEG/RAD: How the trigonometric functions are calculated can be toggled between degrees and radians using the switch located near the main display.
+
 # AngularCalculator
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
