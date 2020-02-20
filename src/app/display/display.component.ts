@@ -30,7 +30,7 @@ export class DisplayComponent implements OnInit {
       event.preventDefault();
       this.updateActiveDisplay('=');
     } else if (event.key === 'Delete') {
-      this.updateActiveDisplay('CE')
+      this.updateActiveDisplay('CE');
     } else if (event.key === 'Backspace') {
       this.updateActiveDisplay('Backspace');
     } else if (this.allowedKeys.includes(event.key)) {

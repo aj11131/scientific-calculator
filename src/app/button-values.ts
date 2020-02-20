@@ -10,7 +10,7 @@ const standardButtonsOutputValues = [
 
 const standardClassValues = [
   'operator', 'operator', 'operator', 'operator', 'operator', 'digit', 'digit',
-  'digit', 'operator', 'digit', 'digit', 'digit', 'operator', 'digit', 'digit', 'digit', 'operator', 'digit', 'digit', 'utility'
+  'digit', 'operator', 'digit', 'digit', 'digit', 'operator', 'digit', 'digit', 'digit', 'operator', 'digit', 'digit', 'digit'
 ];
 
 const scientificButtonDisplayValues = [
