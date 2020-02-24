@@ -1,3 +1,5 @@
+DEMO: https://scientific-calculator11131.netlify.com/
+
 USAGE: Calculator with standard and scientific interface.
 
 CALCULATIONS: To calculate input, string that appears in the calculator display is passed to a formatting function that uses regular expressions to replace functions such as sin() with Math.sin(). This formatting function also handles different muliplication scenarios such as multplication using parenthesis and multiplication of a numbers situated by a letter/symbol ie. (2)(3) and 2π. The formatted string is then evaluated. If there are nested calculator functions such as sin(cos()), the formatting function is called recursively and the inner function is evaluated and then the outer function.
